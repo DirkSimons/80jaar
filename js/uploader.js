@@ -27,4 +27,5 @@ $("#Foto").on("change", function(e){
 
   });
   //uploadTask.on('state_changed', function bezig, function error, function gedaan)
+  
 });
