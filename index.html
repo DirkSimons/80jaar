@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timeline Input</title>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="js/fbcreds.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="node_modules/vue-router/dist/vue-router.js"></script>
+    <script src="node_modules/vuefire/dist/vuefire.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/toastr/toastr.min.js"></script>
+    <script src="node_modules/lodash/lodash.js"></script>
+
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/toastr/toastr.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="slcapp">
+        <div class="container">
+          <slc-nav></slc-nav>
+          <router-view></router-view>
+        </div>
+    </div>
+
+    <script src="js/components/lln-aantal-ingave.component.js"></script>
+    <script src="js/components/lkr-aantal-ingave.component.js"></script>
+    <script src="js/components/event-ingave.component.js"></script>
+    <script src="js/components/overzicht-lln.component.js"></script>
+    <script src="js/components/overzicht-lkr.component.js"></script>
+    <script src="js/components/overzicht-events.component.js"></script>
+    <script src="js/components/nav.component.js"></script>
+    <script src="js/tl-app.js"></script>
+</body>
+
+</html>
